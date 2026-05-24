@@ -2,6 +2,10 @@
 cache/
 out/
 
+# dependencies
+lib/
+node_modules/
+
 # Commonly ignored directories
 .logs/
 .ignore/
@@ -18,3 +22,9 @@ docs/
 .env
 .env.*
 !.env.example
+
+# vscode
+.vscode/
+
+# logs
+*.log
